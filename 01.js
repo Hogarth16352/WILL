@@ -12,6 +12,21 @@ function soloNumeros(array) {
 
   // Tu código aca:
 
+  resultado = [];
+
+  for (let i = 0; i < array.length; i++) {
+    if( parseInt( array[i] ) ){
+
+      resultado.push(array[i]);
+
+    }else{
+
+    }
+    
+  }
+
+  return resultado;
+
 }
 
 // No modifiques nada debajo de esta linea //

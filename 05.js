@@ -15,7 +15,19 @@ function pluck(array, propiedad) {
 
   // Tu código acá:
 
+  var arreglo = [];
+
+  arreglo = array.map( function(producto) {
+  
+        return producto[propiedad];
+
+
+  });
+
+  return arreglo;
+
 }
+
 
 // No modifiques nada debajo de esta linea //
 
