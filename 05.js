@@ -15,7 +15,7 @@ function pluck(array, propiedad) {
 
   // Tu código acá:
 
-  var arreglo = [];
+  var arreglo = "";
 
   arreglo = array.map( function(producto) {
   

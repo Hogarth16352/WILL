@@ -26,10 +26,6 @@ function stringMasLarga(strings) {
       if( auxiliar.length < strings[i].length ){
 
           auxiliar = strings[i];
-      }else{
-
-        continue;
-
       }
      
    }

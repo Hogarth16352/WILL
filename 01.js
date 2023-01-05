@@ -19,8 +19,6 @@ function soloNumeros(array) {
 
       resultado.push(array[i]);
 
-    }else{
-
     }
     
   }

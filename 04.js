@@ -15,9 +15,9 @@ function numeroSimetrico(num) {
   // Tu código:
 
   var numero = num.toString();
-  var reverso = numero.split('').reverse().join('');
+  var revers = numero.split('').reverse().join('');
 
-  if( numero === reverso ){
+  if( numero === revers ){
 
     return true;
 

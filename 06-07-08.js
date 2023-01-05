@@ -99,17 +99,16 @@ function crearClasePersona() {
 
       // Tu código aca:
 
-      var suma = 0,total = 0;
+      var suma = 0;
 
 
       for (let i = 0; i < this.amigos.length; i++) {
         
         suma += this.amigos[i].edad;
-        total++;
         
       }
 
-      return suma/total;
+      return suma/this.amigos.length;
 
     }
 

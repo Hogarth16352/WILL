@@ -21,10 +21,6 @@ function buscarAmigo(amigos,nombre) {
 
       return amigos[i];
 
-    }else{
-
-      continue;
-
     }
     
   }
