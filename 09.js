@@ -25,13 +25,20 @@ function filtrar(funcion) {
   //   return p.price >= 50;
   // }) => [{price: 100, name:'tv'}]
 
-  esp = [];
-  Array.prototype.filtrar = function() {
-    Array.forEach(function(elem) {
-      if (funcion(elem)) {resp.push = elem;}
-    }
-      }
-  return resp;
+  Array.prototype.filtrar = function(cb) {
+    // Crear el arreglo que se va a devolver
+    let arreglo = [];
+    // Recorrer elementos actuales
+    this.forEach(item => {
+        // Analizar el resultado de la función de retorno o "callback"
+        if( cb(item)) {
+            // Si devuelve verdadero, agregar elemento
+            arreglo.push(item);
+        }
+    });
+    // Devolver arreglo filtrado
+    return arreglo;
+  };
   
 
 };
